@@ -1,0 +1,29 @@
+# 깃헙에서 해야할  것
+시크릿츠 만들기
+
+APPLICATION_PROPERTIES   =>작성한 application.properties  파일 내요ㅎ
+AWS_ACCESS_KEY_ID    => ECR 사용자  id
+AWS_SECRET_ACCESS_KEY    => ECR 사용자 비번
+EC2_HOST   => EC2 IP
+EC2_PRIVATE_KEY   => EC2 .pem 키
+EC2_USERNAME  => ubuntu
+
+
+
+
+# EC2에서 해야 할 것
+
+1.도커설치 및  ECR-credential 설치 및  config.json 파일 만들기
+2.EC2에 역할 부여하기 (ECR-role 생성하기)
+3.ECR생성하기 acorn-server
+4.ECR 사용자 생성하기
+
+
+
+
+# 스프링프로젝트에서 해야 할 것
+
+ 1.Dockerfile 작성하기
+ 2. .github -> workflows  -> deploy.yml
+
+

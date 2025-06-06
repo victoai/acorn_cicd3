@@ -12,7 +12,6 @@ public class HelloController {
     @GetMapping("hi-cicd-docker")
     public String  hi(){
 
-
         return  "hi  cicd docker !!!";
     }
 }
